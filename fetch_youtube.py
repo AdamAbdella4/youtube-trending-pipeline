@@ -51,7 +51,7 @@ filename = f"youtube_trending_{timestamp}.json"
 # Save data to local file
 with open(filename, 'w') as f:
     json.dump(data, f, indent=4)
-print(f"✅ Data saved locally as {filename}")
+print(f"Data saved locally as {filename}")
 
 # Print video titles and views
 for video in data['items']:
