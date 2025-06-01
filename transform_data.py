@@ -32,4 +32,4 @@ with open(processed_filename, 'w') as f:
         json.dump(row, f)
         f.write('\n')  # write one JSON object per line
 
-print(f"✅ Cleaned data saved as {processed_filename}")
+print(f"Cleaned data saved as {processed_filename}")
